@@ -1,0 +1,45 @@
+.form-control::placeholder{
+    color: red;
+}
+
+.game-area{
+    background-color: blueviolet;
+    height: 600px;
+    position: relative;
+}
+
+.score, .start, .level{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.screen{
+    display: flex;
+}
+
+.score{
+    background-color: rgb(153, 59, 59, .4);
+    width: 50%;
+}
+
+.level{
+    width: 50%;
+    background-color: rgba(62, 185, 128, 0.4);
+}
+
+.start{
+    background-color: rgba(251, 253, 255, 0.4);
+}
+
+.bubble{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: rgba(57, 189, 134, .7);
+    display: block;
+}
